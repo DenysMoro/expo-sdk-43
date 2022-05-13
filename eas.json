@@ -1,0 +1,31 @@
+{
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "releaseChannel": "ios-offline-preview",
+      "cache": {
+        "key": "ios-offline-preview"
+      },
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      }
+    },
+    "production": {
+      "releaseChannel": "ios-offline-preview-3",
+      "cache": {
+        "key": "ios-offline-preview-3"
+      },
+      "distribution": "internal"
+    }
+  },
+  "submit": {
+    "production": {}
+  },
+  "cli": {
+    "version": ">= 0.52.0"
+  }
+}

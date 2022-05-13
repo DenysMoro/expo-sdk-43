@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "sdk-43",
+    "slug": "sdk-43",
+    "version": "1.1.2",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "checkAutomatically": "ON_ERROR_RECOVERY"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "109",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.taranis.sdk43"
+    },
+    "android": {
+      "versionCode": 109,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
